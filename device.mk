@@ -99,6 +99,16 @@ PRODUCT_PACKAGES += \
     android.system.keystore2
 
 # ========================================
+# Preloader Update Utility (MediaTek)
+# ========================================
+# Adds the create_pl_dev tool and its recovery variant to support
+# raw preloader partition updates on MediaTek platforms. This utility
+# uses device-mapper nodes to enable writing to partitions without headers.
+PRODUCT_PACKAGES += \
+    create_pl_dev \
+    create_pl_dev.recovery
+
+# ========================================
 # Update Engine (for A/B and sideload)
 # ========================================
 PRODUCT_PACKAGES += \
