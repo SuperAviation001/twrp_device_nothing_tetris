@@ -4,7 +4,7 @@
 # Copyright (C) 2024-2025 The TeamWin Recovery Project
 # SPDX-License-Identifier: Apache-2.0
 #
-# TWRP Device Config for MT6878
+# TWRP Device Config for tetris
 # Maintainer: LazymeaoProjects
 # Date: 2025-05-XX
 #
@@ -40,7 +40,7 @@ TARGET_OTA_ASSERT_DEVICE := Tetris,tetris,A015,mt6878
 # Platform & Bootloader
 # ========================================
 TARGET_BOARD_PLATFORM := mt6878
-TARGET_BOOTLOADER_BOARD_NAME := mt6878
+TARGET_BOOTLOADER_BOARD_NAME := Tetris
 TARGET_NO_BOOTLOADER := true
 
 BOARD_HAS_MTK_HARDWARE := true
