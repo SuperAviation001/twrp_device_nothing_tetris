@@ -235,7 +235,7 @@ TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone11/temp
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
 TARGET_USES_MKE2FS := true
-TW_DEVICE_VERSION := v0.1.0 | LazymeaoProjects
+TW_DEVICE_VERSION := v0.1.0 | LazymeaoProjects & schoosh
 
 # ========================================
 # TWRP Tools & Features
