@@ -19,7 +19,7 @@ PRODUCT_NAME := twrp_tetris
 PRODUCT_BRAND := Nothing
 
 # Default device path for the device tree
-DEVICE_PATH := device/$(PRODUCT_BRAND)/$(PRODUCT_DEVICE)
+DEVICE_PATH := device/nothing/tetris
 
 # ========================================
 # Inherit Common Configuration
