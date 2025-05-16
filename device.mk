@@ -96,7 +96,14 @@ PRODUCT_PACKAGES += \
 # Keymaster & Keystore Support
 # ========================================
 PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.1 \
     android.system.keystore2
+
+TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
+    $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.keymaster@4.1
+
+TARGET_RECOVERY_DEVICE_MODULES += \
+    android.hardware.keymaster@4.1
 
 # ========================================
 # Preloader Update Utility (MediaTek)
@@ -107,6 +114,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     create_pl_dev \
     create_pl_dev.recovery
+
+# ========================================
+# Android Security HALs
+# ========================================
+PRODUCT_PACKAGES += \
+    android.hardware.security.keymint \
+    android.hardware.security.secureclock \
+    android.hardware.security.sharedsecret
 
 # ========================================
 # Update Engine (for A/B and sideload)
