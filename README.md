@@ -1,1 +1,1 @@
-# android_recovery_device_nothing_mt6878
+# twrp_device_nothing_tetris
