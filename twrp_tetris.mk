@@ -16,7 +16,7 @@
 # Define device specifics: chip model, TWRP product name, and brand
 PRODUCT_DEVICE := tetris
 PRODUCT_NAME := twrp_tetris
-PRODUCT_BRAND := nothing
+PRODUCT_BRAND := Nothing
 
 # Default device path for the device tree
 DEVICE_PATH := device/nothing/tetris
