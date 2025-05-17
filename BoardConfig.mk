@@ -137,6 +137,11 @@ TW_INCLUDE_FBE_METADATA_DECRYPT := true
 TW_USE_FSCRYPT_POLICY := 2
 
 # ========================================
+# Disable haptics
+# ========================================
+TW_NO_HAPTICS := true
+
+# ========================================
 # Anti-Rollback Bypass
 # ========================================
 PLATFORM_SECURITY_PATCH := 2127-12-31
