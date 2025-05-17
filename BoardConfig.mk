@@ -37,11 +37,6 @@ ENABLE_SCHEDBOOST := true
 TARGET_OTA_ASSERT_DEVICE := Tetris,tetris,A015,mt6878
 
 # ========================================
-# Treble/VNDK
-# ========================================
-BOARD_VNDK_VERSION := current
-
-# ========================================
 # Platform & Bootloader
 # ========================================
 TARGET_BOARD_PLATFORM := mt6878
@@ -140,7 +135,6 @@ TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
 TW_INCLUDE_FBE_METADATA_DECRYPT := true
 TW_USE_FSCRYPT_POLICY := 2
-TW_FORCE_KEYMASTER_VER := true
 
 # ========================================
 # Anti-Rollback Bypass
